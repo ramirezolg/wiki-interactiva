@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Wiki Interactiva -Procesos Psicológicos</title>
+
+<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Wiki Interactiva</h1>
+    <h2>Percepción, Motivación y Pensamiento</h2>
+</header>
+<section>
+  
+  <div class="contenedor-video">
+  <iframe src="https://youtube.com/shorts/wPfplbfE4Aw?feature=share" frameborder="0" allowfullscreen></iframe>
+</div>
+
+</section>
+<section>
+<h2>Introducción</h2>
+<p>
+Los procesos psicológicos permiten comprender cómo las personas interpretan el entorno, reaccionan y toman decisiones.
+Los procesos psicológicos básicos, los activadores de la conducta humana y los procesos psicológicos, trabajan de forma independiente, pero de manera conjunta para guiar el comportamiento y la adaptarse al entorno. Los procesos psicológicos básicos como la percepción permiten captar e interpretar la información que viene a través de los sentidos. Los activadores como la motivación a partir de esa información impulsan a la persona a actuar para alcanzar metas o satisfacer necesidades. Por ultimo los procesos superiores como el pensamiento, ayudan analizar la información, resolver problemas, tomar decisiones y ejecutar acciones
+</p>
+
+</section>
+<section>
+  <h2>Objetivo</h2>
+  <p>Analizar cómo interactúan la percepción, la motivación y el pensamiento en situaciones cotidianas, mediante actividades interactivas que permitan comprender su influencia en la conducta humana.</p>
+</section>
+<section>
+
+<h2>Procesos Psicológicos</h2>
+
+ <img src="images/mapa mental.jpg" alt="Procesos psicológicos"> 
+</section>
+<section>
+<h2>Instrucciones</h2>
+<p>El participante deberá realizar 4 actividades interactivas de razonamiento logico, pensamiento, diseñadas para analizar la relación entre los procesos psicologicos, principalmente (percepcion, motivacion y pensamiento. Cada actividad debe completarse siguiendo las indicaciones.
+Al final, se reflexiona sobre cómo estos procesos influyen en la conducta humana.</p>
+<h2>Reglas de la actividad</h2>
+<p>
+<ul>Lee cuidadosamente cada actividad</ul>
+<ul>Responde según tu razonamiento y comprensión.</ul></p>
+</section>
+<section>
+  <div class="contenedor-tabla">
+  <table>
+    <thead>
+      <tr>
+        <th>Proceso</th>
+        <th>Definición Breve</th>
+        <th>Ejemplo en la Wiki</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Percepción</strong></td>
+        <td>Organización e interpretación de estímulos sensoriales.</td>
+        <td><ul>Identificar colores y formas</ul>
+          <ul>Reconocer un sonido peligrosos</ul>
+        </td>
+      </tr>
+      <tr>
+        <td><strong>Motivación</strong></td>
+        <td>Impulso interno que mueve a la acción del usuario.</td>
+        <td><ul>Estudiar para aprobar</ul>
+          <ul>Salir a entrenar</ul></td>
+      </tr>
+      <tr>
+        <td><strong>Pensamiento</strong></td>
+        <td>Procesamiento mental de la información para analizar y resolver problemas.</td>
+        <td><ul>Analizar las instrucciones para avanzar.</ul>
+          <ul>Tomar decisiones</ul></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</section>
+<section>
+<h2>Actividad 1: Trivia</h2>
+<p>¿Qué proceso interpreta los estímulos del entorno?</p>
+
+<div class="quiz-option" onclick="trivia('correcto')">Percepción</div>
+<div class="quiz-option" onclick="trivia('incorrecto')">Motivación</div>
+<div class="quiz-option" onclick="trivia('incorrecto')">Pensamiento</div>
+
+<p id="resultadoTrivia"></p>
+</section>
+
+<section>
+<h2>Actividad 2: Rompecabezas Lógico</h2>
+<p>Analiza y continua la secuencia<p>
+
+<p>5 → 8 → 16 → 19 → 38 → 41 → ?</p>
+
+<div class="quiz-option" onclick="rompecabezas('incorrecto')">80</div>
+<div class="quiz-option" onclick="rompecabezas('correcto')">82</div>
+<div class="quiz-option" onclick="rompecabezas('incorrecto')">84</div>
+<div class="quiz-option" onclick="rompecabezas('incorrecto')">78</div>
+<p id="resultadoRompecabezas"></p>
+</section>
+<section>
+<h2>Actividad 3: Une el concepto con su definición</h2>
+
+<p>Relaciona cada proceso psicológico con su definición correcta:</p>
+
+<div class="match-container">
+
+  <h3>Conceptos</h3>
+  <button onclick="seleccionar('percepcion')" class="match-btn">Percepción</button>
+  <button onclick="seleccionar('motivacion')" class="match-btn">Motivación</button>
+  <button onclick="seleccionar('pensamiento')" class="match-btn">Pensamiento</button>
+
+  <h3>Definiciones</h3>
+
+ <button onclick="responder('pensamiento','correcto')" class="match-btn">
+    Procesamiento mental para analizar y resolver problemas
+  </button>
+  <button onclick="responder('motivacion','correcto')" class="match-btn">
+    Impulso que dirige la conducta hacia una meta
+  </button>
+   <button onclick="responder('percepcion','correcto')" class="match-btn">
+    Interpretación de los estímulos del entorno
+  </button>
+
+</div>
+<p id="resultadoMatch"></p>
+</section>
+<section>
+<h2>Actividad 4: Reto creativo avanzado</h2>
+
+<p>Lee la historia y analiza lo que ocurre:</p>
+
+<p>
+"Un estudiante caminaba solo por el bosque de noche.  
+De repente percibió un estímulo visual ambiguo entre los árboles.  
+Su primera reacción fue de alerta, pero luego decidió acercarse para interpretarlo mejor."
+</p>
+
+<p><strong>💡 Pista:</strong> Piensa en los procesos psicológicos básicos que intervienen cuando algo no es claro y genera duda.</p>
+
+<input type="text" id="respuestaHistoria" placeholder="Escribe tu respuesta...">
+
+<button onclick="verificarHistoria()">Comprobar</button>
+
+<p id="resultadoHistoria"></p>
+</section>
+<section>
+  <h2>Reflexion</h2>
+  <img src="images/REFLEXION.jpg" alt="Procesos psicológicos"> 
+</section>
+<section>
+<h2>Conclusión</h2>
+<p>
+Los procesos psicológicos trabajan juntos en la vida diaria.
+En esta actividad se evidenció la relación entre los procesos psicológicos básicos, los activadores de la conducta  y funciones mentales superiores en la conducta humana. A través de los retos propuestos, se logró analizar cómo la atención, la memoria y el pensamiento interactúan en la resolución de tareas cotidianas
+</p>
+</section>
+<section>
+  <h2>Referencias Bibliograficas</h2>
+  <ul>Almansa, P. (2012). Qué es el pensamiento creativo. Index de
+Enfermería, 21(3), 165-168. https://dx.doi.org/10.4321/S1132-
+12962012000200012</ul>
+  <ul>Ballesteros Jiménez, S. (2014). Habilidades cognitivas básicas:
+formación y deterioro: ( ed.). UNED - Universidad Nacional de Educación
+a Distancia. (pp. 222-227 y 238-244) https://elibronet.bibliotecavirtual.unad.edu.co/es/ereader/unad/48756?page=1</ul>
+  <ul>Herrera, L. (2019). Procesamiento Cerebral del Lenguaje: Historia y
+evolución teórica. Fides et Ratio, 17, 101–130.
+http://vlex.com.bibliotecavirtual.unad.edu.co/vid/procesamientocerebral-lenguaje-historia-790741777
+</ul>
+  <ul>Jara, V. (2012). Desarrollo del pensamiento y teorías cognitivas para
+enseñar a pensar y producir conocimientos. Sophia, Colección de
+Filosofía de la Educación, (12),53-66. ISSN: 1390-3861.
+https://www.redalyc.org/articulo.oa?id=441846101004
+</ul>
+</section>
+<section>
+<footer>
+Wiki educativa - Procesos psicológicos
+</footer>
+</section>
+<script src="script.js"></script>
+
+</body>
+</html>

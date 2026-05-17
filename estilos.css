@@ -1,0 +1,139 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#eef2f7;
+    color:#black;
+}
+header{
+    background:#000;
+    color:white;
+    padding:30px;
+    width:100%;
+    max-width:900px;
+    margin:0 auto ;
+    text-align:center;
+}
+
+section{
+    background-color:#7FFFD4;
+    margin:20px auto;
+    padding:25px;
+    border-radius:15px;
+    max-width:900px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#black;
+}
+p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+.quiz-option{
+    background:#e8eef8;
+    padding:12px;
+    margin:10px 0;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.quiz-option:hover{
+    background:#d6e3f7;
+}
+
+.correcto{
+    color:green;
+    font-weight:bold;
+}
+
+.incorrecto{
+    color:red;
+    font-weight:bold;
+}
+
+textarea{
+    width:100%;
+    padding:10px;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#666;
+}
+.match-btn {
+  display: block;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: #f9f9f9;
+}
+
+.match-btn:hover {
+  background: #e8f0fe;
+}
+
+.match-container h3 {
+  margin-top: 15px;
+}
+img{
+     max-width: 100%;
+}
+/* Permite que la tabla se mueva horizontalmente en celulares si es muy grande */
+.contenedor-tabla {
+  width: 100%;
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Une los bordes en una sola línea */
+  background-color: #ffffff; /* Fondo blanco para que resalte sobre el aguamarina */
+  border-radius: 8px;
+  overflow: hidden; /* Corta las esquinas del fondo para que sigan el radio */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Encabezado de la tabla (Negro como tu header para dar armonía) */
+th {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Filas alternas con un toque aguamarina muy sutil para facilitar la lectura */
+tbody tr:nth-child(even) {
+  background-color: #f0fdfa; 
+}
+input[type="text"] {
+  font-size: 1rem;         /* Letra más grande y legible */
+  padding: 10px 15px;      /* Espacio interno (arriba/abajo y lados) para que se vea amplia */
+  border: 1px solid #000;  /* Borde definido para que combine con tu diseño */
+  border-radius: 4px;      /* Bordes ligeramente redondeados modernos */
+  width: 250px;            /* Hace la caja más larga para que quepa más texto */
+  box-sizing: border-box;  /* Evita que el padding rompa el tamaño de la caja */
+}
+button, input[type="submit"] {
+  font-size: 1rem;         /* Letra del mismo tamaño que la caja */
+  padding: 10px 20px;      /* Botón más grande y fácil de presionar */
+  background-color: #grey;  /* Fondo negro para que haga juego con tu header */
+  color: #000;             /* Texto blanco para contrastar con el fondo negro */
+  border: none;            /* Quita el borde gris antiguo por defecto */
+  border-radius: 4px;      /* Bordes redondeados */
+  cursor: pointer;         /* Cambia el cursor a una mano al pasar por encima */
+  font-weight: bold;       /* Letra en negrita */
+  margin-left: 10px;       /* Separa un poco el botón de la caja de texto */
+}
