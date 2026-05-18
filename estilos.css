@@ -138,12 +138,14 @@ button, input[type="submit"] {
   margin-left: 10px;       /* Separa un poco el botón de la caja de texto */
 }
 .contenedor-video {
-  max-width: 315px; /* Un ancho más angosto para videos verticales */
+  max-width: 650px; /* Un ancho ideal para que se vea grande en tu sección */
+  width: 100%;
   margin: 20px auto;
 }
 
 .contenedor-video iframe {
   width: 100%;
-  aspect-ratio: 9 / 16; /* Proporción vertical perfecta para Shorts */
+  aspect-ratio: 16 / 9; /* Fuerza la proporción horizontal clásica */
   border-radius: 8px;
 }
+
