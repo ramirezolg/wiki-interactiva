@@ -137,3 +137,13 @@ button, input[type="submit"] {
   font-weight: bold;       /* Letra en negrita */
   margin-left: 10px;       /* Separa un poco el botón de la caja de texto */
 }
+.contenedor-video {
+  max-width: 315px; /* Un ancho más angosto para videos verticales */
+  margin: 20px auto;
+}
+
+.contenedor-video iframe {
+  width: 100%;
+  aspect-ratio: 9 / 16; /* Proporción vertical perfecta para Shorts */
+  border-radius: 8px;
+}
